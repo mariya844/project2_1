@@ -1,0 +1,240 @@
+<!DOCTYPE html> 
+<html>
+    <head lang="en" dir="ltr">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Mariya's personal site
+        </title> 
+        <style>
+            
+            body{
+            margin:0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            }
+            .background{
+                background-image: url(wp3182283.jpg);
+                background-repeat: no-repeat;
+                position:fixed;
+                top:0px;
+                width:100%;
+                height:100%;
+                z-index:-1;
+            }
+            #background{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:#e8ffc1;
+           
+           }
+           nav{
+            height:75px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left:30px;
+            padding-right:30px;
+            background-color: rgba(81, 173, 207, 0.5);
+            
+            color:#e8ffc1;
+            }
+            header{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            height:400px;
+            
+            color:#e8ffc1;
+            }
+            section{
+            margin-top:75px;
+            margin-bottom:75px;
+            margin-right:100px;
+            margin-left:100px;
+            height:675px;
+            background-color:rgba(232, 255, 193,0.8);
+            }
+            #prefooter{
+            background-color:rgba(165, 236, 215, 0.7);
+            height:40px;
+            }
+            footer{
+            height:100px;
+            background-color:rgba(2, 120, 174,0.9);
+            }
+            #yellow_paragraph{
+            display:flex;
+            height:190px;
+            margin-bottom:75px;
+            text-align:center;
+            padding-top:10px;
+            flex-direction:column;
+            align-items:center;
+            }
+            #yellow_paragraph p{
+                width:50%;
+            }
+            .container{
+                display:flex;/*створює flex-container*/
+            justify-content:space-between;/*опсиує розміщення елементів в контейнері*/
+            align-items:center;/*вирівнювання елементів*/
+            }
+            .orange_box{
+            height:400px;
+            width:48%;
+            display:flex;
+            flex-direction: column;
+            
+            }
+            .orange_box img{
+                width:70%;
+                margin-left:15%;
+            }
+            
+            #navigation{
+                display:flex;
+                justify-content: flex-end;
+                text-decoration: underline;
+
+            }
+            #logo{
+
+            }
+            .part{
+                  margin-left:10px;
+            }
+            #prefooter{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+            footer{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                padding-left:50px;
+                padding-right:50px;
+            }
+            .art p{
+                width:80%;
+                margin-right:10%;
+                margin-left:10%;
+            }
+            .headline{
+                font-size:60px;
+            }
+            .link{
+                text-decoration:underline;
+            }
+            .part a:visited, .link a:visited{
+                color:#e8ffc1;
+            }
+            @media (max-width: 1000px){
+                body{
+                    background-color:rgb(81, 173, 207) ;
+                }
+
+                .background{
+                    position:static;
+                }
+
+                section{
+                height:auto;
+                margin-right:0px;
+                margin-left:0px;
+                }
+                
+                #yellow_paragraph{
+                height:auto;
+                }
+                
+                .orange_box{
+                height:auto;
+                }
+
+                footer{
+                height:auto;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+        </div>
+        <nav>
+            <div id="logo">
+                Logo
+            </div>
+            <div id="navigation">
+                <div class="part">
+                <a href="responsive-flex.html">part1</a>
+                </div>
+                <div class="part">
+                    <a href="responsive-flex.html">   part2   </a>
+
+                </div>
+                <div class="part">
+                    <a href="responsive-flex.html">  part3 </a>
+                </div>
+                <div class="part">
+                    <a href="responsive-flex.html">  option1 </a>
+                </div>
+                <div class="part">
+                    <a href="responsive-flex.html"> option2 </a>
+                </div>
+            </div>
+            
+        </nav>
+        <header>
+            <div class="subheading">subheading</div>
+            <div class="headline">headline</div>
+            <div class="link"><a href="responsive-flex.html">link</a></div>
+        </header>
+        
+        <section>
+            <div id="yellow_paragraph"> 
+                <h1>Lorem ipsum dolor </h1>
+                <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                proident, sunt in culpa qui officia deserunt mollit anim id est 
+                laborum.</p>
+            </div>
+            <div class="container">
+                <div class="orange_box">
+                    <div class="picture">
+                        <img src="mini_magick20180123-3-1kkedhe.jpg">
+                    </div>
+                    <div class="art" align="center">
+                        <p>Ac tortor dignissim convallis aenean. Dictumst vestibulum 
+                            rhoncus est pellentesque elit ullamcorper. Accumsan tortor 
+                            posuere ac ut consequat semper viverra nam libero. Venenatis 
+                            tellus in metus vulputate eu scelerisque felis. </p>
+                    </div>
+
+                </div>
+                <div class="orange_box">
+                    <div class="picture">
+                        <img src="The_Pass_2000.jpg">
+                    </div>
+                    <div class="art" align="center">
+                        <p>Vulputate sapien nec sagittis aliquam malesuada bibendum. 
+                        Et tortor consequat id porta nibh venenatis cras sed. 
+                        Quis ipsum suspendisse ultrices gravida dictum fusce ut 
+                        placerat orci. Tellus elementum sagittis vitae et.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="prefooter">
+            Molestie at elementum eu facilisis
+        </div>
+        <footer align="center">
+            Eu ultrices vitae auctor eu augue. Congue quisque egestas diam in arcu 
+            cursus euismod quis. Fermentum posuere urna nec tincidunt praesent. 
+            Ullamcorper dignissim cras tincidunt lobortis feugiat.
+        </footer>
+    </body>
+</html>
