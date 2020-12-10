@@ -1,0 +1,129 @@
+body{
+    margin:50px;
+    margin-top:20px;
+    background-color: skyblue;
+    line-height: 120%;
+}
+
+h1,h2,h3,h5 {
+    text-align:center;
+    color:rgb(28, 18, 90);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+.head_2{
+    border-style:double;
+    border-color:rgb(59, 151, 255);
+    border-width:0px;
+    border-bottom-width:3px;
+}
+
+hr {
+    border-color:cadetblue;
+    border-style:dotted;
+    border-width: 0px;
+    border-top-width:7px;
+    height:none;
+    width:55px;
+    background-color: none;
+    }
+
+img {
+    margin:0px 30px;
+}
+
+a:link{
+    text-decoration:none;
+    color:grey;
+}
+
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+a:visited{
+    color:slateblue;
+}
+
+#foot{
+    margin:5px 40px;
+}
+
+ul{
+    list-style-type:circle; 
+    font-style: oblique;
+}
+
+.connection_form {
+    line-height: 150%;
+    margin:10px;
+    padding:5px;
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgb(28, 18, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    width:50%;
+    padding:20px;
+    height:320px;
+}
+.box{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:30px;
+    
+}
+.box_2{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top:30px;
+    width:100%;
+    
+}
+.hobbi{
+    padding:5px;
+    border-style:dotted;
+    border-width: 2px;
+    border-color:rgb(28, 18, 90);
+    margin:10px;
+}
+
+.hobbi img{
+    width:400px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    align-items:center;
+}
+header h1{
+    letter-spacing: 10px;
+
+}
+.aboutme {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.aboutme h3{
+    display:block;
+    width:100%;
+    border-style:dotted;
+    border-width: 2px;
+    border-color:rgb(28, 18, 90);
+    margin-bottom: 30px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.info{
+    padding-left:20px;
+    padding-bottom: 20px;
+    width:46%;
+    
+    border-style:dotted;
+    border-width: 2px;
+    border-color:rgb(28, 18, 90);
+}
